@@ -39,42 +39,5 @@
     </nav>
 
 
-    <div class="container roundness d-flex flex-column justify-content-between align-items-center" 
-     style="background-color: #afdc76; max-width: 1800px; width: 100%; min-height: 500px; margin-top: 70px">
-    
-        <div class="d-flex flex-grow-1 align-items-center mb-5"> 
-            <h1 class="text-center" style="color: #347928; font-size: 80px;">
-                Genosis Exousia
-            </h1>
-        </div>
-
-        <p class="h3 text-center" style="max-width: 90%; margin-bottom: 50px;"> 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-    </div>
-
-    <div class="card-container card-container-roundness">
-        <button type="button" onclick="aboutus()" class="btn btn-light card roundness justify-content-center mx-5 d-flex align-items-center flex-column">Read More</button>
-        <button type="button" onclick="admission()" class="btn btn-light card roundness justify-content-center mx-5 d-flex align-items-center flex-column">Enroll Now</button>
-        <button type="button" onclick="contacts()" class="btn btn-light card roundness justify-content-center mx-5 d-flex align-items-center flex-column">Contacts</button>
-    </div>
-
 </body>
 </html>
-
-<script>
-    function aboutus(){
-        window.location = '{{ route('aboutpage') }}';
-    }
-
-    function admission(){
-        window.location = '{{ route('admission') }}';
-    }
-
-    function contacts(){
-        window.location = '{{ route('contacts') }}';
-    }
-
-
-</script>
