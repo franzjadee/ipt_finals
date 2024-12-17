@@ -7,11 +7,9 @@
 
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    
-</head>
-<body class="bg-image d-flex flex-column">
 
-    <div class="bg-overlay"></div>
+</head>
+<body class="d-flex flex-column" style="background-color:#fdf0f0; padding-bottom: 300px">
 
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#afdc76; position: relative;">
         <div class="container-fluid">
@@ -38,6 +36,25 @@
         </div>
     </nav>
 
+    <div class="container  d-flex flex-column justify-content-between align-items-center" 
+     style="background-color: #afdc76; max-width: 1800px; width: 50%; min-height: 70px; margin-top: 100px">
+    
+        <div class="d-flex flex-grow-1 align-items-center"> 
+            <p class="text-center" style="color: #347928; font-size: 30px;">
+                Our Programs
+            </p>
+        </div>
+    </div>
+
+    <div class="container d-flex flex-column justify-content-between align-items-center mt-5" 
+     style="background-color: #afdc76; max-width: 1800px; width: 50%; min-height: 600px;">
+    
+        <div class="d-flex flex-grow-1 pt-4"> 
+            <p class="text-center" style="color: #347928; font-size: 20px;">
+                List of Programs
+            </p>
+        </div>
+    </div>
 
 </body>
 </html>

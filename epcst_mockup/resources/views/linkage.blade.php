@@ -7,11 +7,9 @@
 
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    
-</head>
-<body class="bg-image d-flex flex-column">
 
-    <div class="bg-overlay"></div>
+</head>
+<body class="d-flex flex-column" style="background-color:#fdf0f0; padding-bottom: 300px">
 
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#afdc76; position: relative;">
         <div class="container-fluid">
@@ -37,9 +35,6 @@
             </div>
         </div>
     </nav>
-
-
-
 
 </body>
 </html>
